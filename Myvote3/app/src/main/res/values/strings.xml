@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My vote</string>
+    <string name="todo">todo</string>
+    <string name="id">id</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="no_of_attempts_remaining">no_of_attempts_remaining</string>
+    <string name="new_user_signup">new_user_signup</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="registeration">registeration</string>
+    <string name="already_signedin">already_signedin</string>
+</resources>

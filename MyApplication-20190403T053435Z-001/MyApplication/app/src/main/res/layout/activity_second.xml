@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voting Page"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choose the one whom you want to vote"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_above="@id/radio_group"
+        android:layout_marginBottom="-9dp"
+        android:textAlignment="center"
+
+        />
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_centerVertical="true"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio_button1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+/>
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="40dp"
+                android:src="@drawable/a" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio_button2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/b"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/c"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio_button4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/d"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio_button5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/e"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio_button6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/f"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/g"
+                />g
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/h"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio_button9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/i"
+                />
+
+        </LinearLayout>
+        <RadioButton
+            android:id="@+id/radio_button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUN"
+
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group"
+        android:text="confirnm" />
+</RelativeLayout>

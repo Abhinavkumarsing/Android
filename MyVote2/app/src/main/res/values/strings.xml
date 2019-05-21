@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Vote</string>
+    <string name="todo">TODO</string>
+    <string name="id">ID</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="no_of_attempts_remaining">No Of Attempts Remaining</string>
+    <string name="button">Button</string>
+    <string name="new_user_signup">New User?signup</string>
+    <string name="name">Name</string>
+    <string name="name">Name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="already_signed_in_login">Already signed in?Login</string>
+    <string name="signin_login">signin/login</string>
+    <string name="registeration">registeration</string>
+    <string name="already_signedin">already signedin</string>
+</resources>
